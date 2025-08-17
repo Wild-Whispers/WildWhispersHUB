@@ -1,0 +1,82 @@
+# Miscellaneous
+0-OLD_WORLDS/*
+bundler/*
+cache/*
+config/paper-global.yml
+debug/*
+FancyAnalytics/*
+libraries/*
+logs/*
+.console_history
+banned-ips.json
+banned-players.json
+env.bat
+eula.txt
+ops.json
+server.properties
+usercache.json
+whitelist.json
+
+# Worlds
+MAIN_WORLD/*
+MAIN_WORLD_the_end/*
+MAIN_WORLD_nether/*
+
+# General plugin folders/files
+plugins/.paper-remapped/*
+plugins/bStats/*
+plugins/spark/*
+plugins/PluginMetrics/*
+plugins/update/*
+
+# EssentialsX
+plugins/Essentials/messages/*
+plugins/Essentials/userdata/*
+plugins/Essentials/userdata-npc-backup*
+plugins/Essentials/warps/*
+plugins/Essentials/motd.txt
+plugins/Essentials/items.json
+plugins/Essentials/kits.yml
+plugins/Essentials/spawn.yml
+plugins/Essentials/tpr.yml
+plugins/Essentials/upgrades-done.yml
+plugins/Essentials/usermap.bin
+plugins/Essentials/uuids.bin
+plugins/Essentials/uuids10794964979514722645.tmp.bin
+plugins/Essentials/worth.yml
+
+# EssentialsX Discord
+plugins/EssentialsDiscord/*
+
+# FancyHolograms
+plugins/FancyHolograms/logs/*
+
+# FastAsyncWorldEdit
+plugins/FastAsyncWorldEdit/clipboard/*
+plugins/FastAsyncWorldEdit/history/*
+plugins/FastAsyncWorldEdit/lang/*
+plugins/FastAsyncWorldEdit/sessions/*
+
+# Floodgate
+plugins/floodgate/*
+
+# LuckPerms
+plugins/LuckPerms/*
+
+# MoorlandSanctuary
+plugins/MoorlandSanctuary/*
+
+# ServerSelectorX
+# Include everything
+
+# Vault
+/plugins/Vault/*
+
+# ViaBackwards
+# Include everything
+
+# ViaVersion
+# Include everything
+
+# WorldGuard
+/plugins/WorldGuard/*

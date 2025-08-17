@@ -1,0 +1,185 @@
+# Number of rows of slots of your server selector menu. For example '2' will mean 2*9 = 18 slots. Max value is 6.
+rows: 4
+
+# This will be displayed as the title of the menu.
+title: 'AVAILABLE SERVERS'
+
+# This will be the name of the server selector item
+item-name: '&l&dServer &5&lSelector'
+
+item-lore:
+- 'Click to select a server to play on!'
+- ''
+
+# The name of the server selector item.
+item: COMPASS
+
+# Give the item when a player joins?
+on-join: true
+
+# What slot should the item be in? Specify -1 to automatically put it in the first available slot.
+inv-slot: -1
+
+# URL clickable message
+url-message: '&3&lClick here'
+
+# Command to open the menu. Specify "none" for no command. (without /)
+command: "none"
+
+# Require permission to open menu?
+require-permission: false
+# Which permission node to require?
+permission-node: 'ssx.menu.default'
+no-permission-message: "&cYou don't have permission to open this menu. This should not happen, please contact a staff member."
+
+# Uncomment to configure an allow list of worlds. The compass won't be given to players joining other
+# worlds. However, they might still keep the compass when switching between worlds. You should install
+# a per-world inventories plugin.
+#only-in-worlds: [hub1, hub2]
+
+# https://github.com/ServerSelectorX/ServerSelectorX/wiki/Free-%7C-Items-in-the-server-selector
+menu:
+
+  # Server item
+  12:
+  
+    # Enable to show server status and placeholders
+    ping-server: true
+    ip: localhost
+    port: 25567
+    
+    # Action to run when the item is clicked
+    action: 'srv:smp1'
+
+    online:
+      item: DIAMOND_PICKAXE
+      name: '&b&k$&r &5&lSMP 1 &b&k$'
+      lore:
+       - '&7There are &a&l{online} &7out of &9&l{max} &7players online.'
+       - '&6Click to join.'
+
+    offline:
+      item: BARRIER
+      name: '&b&k$&r &5&lSMP 1 &b&k$'
+      lore:
+       - '&c&l&nSERVER OFFLINE'
+
+  # Server item
+  14:
+  
+    # Enable to show server status and placeholders
+    ping-server: true
+    ip: localhost
+    port: 25570
+    
+    # Action to run when the item is clicked
+    action: 'srv:factions1'
+
+    online:
+      item: SHIELD
+      name: '&b&k$&r &a&lFACTIONS 1 &b&k$'
+      lore:
+       - '&7There are &a&l{online} &7out of &9&l{max} &7players online.'
+       - '&6Click to join.'
+
+    offline:
+      item: BARRIER
+      name: '&b&k$&r &5&lFactions 1 &b&k$'
+      lore:
+       - '&c&l&nSERVER OFFLINE'
+
+  # Server item
+  21:
+  
+    # Enable to show server status and placeholders
+    ping-server: true
+    ip: localhost
+    port: 25568
+    
+    # Action to run when the item is clicked
+    action: 'srv:molewars1'
+
+    online:
+      item: DIRT
+      name: '&b&k$&r &cMOLE &6WARS &b&k$'
+      lore:
+       - '&7There are &a&l{online} &7out of &9&l{max} &7players online.'
+       - '&6Click to join.'
+
+    offline:
+      item: BARRIER
+      name: '&b&k$&r &5&lMOLE WARS &b&k$'
+      lore:
+       - '&c&l&nSERVER OFFLINE'
+
+  # Server item
+  23:
+  
+    # Enable to show server status and placeholders
+    ping-server: true
+    ip: localhost
+    port: 25569
+    
+    # Action to run when the item is clicked
+    action: 'srv:skygrid1'
+
+    online:
+      item: GLASS
+      name: '&b&k$&r &a&lSKYGRID 1 &b&k$'
+      lore:
+       - '&7There are &a&l{online} &7out of &9&l{max} &7players online.'
+       - '&6Click to join.'
+
+    offline:
+      item: BARRIER
+      name: '&b&k$&r &5&lSKYGRID 1 &b&k$'
+      lore:
+       - '&c&l&nSERVER OFFLINE'
+
+  # Server item
+  31:
+  
+    # Enable to show server status and placeholders
+    ping-server: true
+    ip: localhost
+    port: 25571
+    
+    # Action to run when the item is clicked
+    action: 'srv:whitelistsurvival'
+
+    online:
+      item: GRASS_BLOCK
+      name: '&b&k$&r &a&lWhitelist &b&k$'
+      lore:
+       - '&7There are &a&l{online} &7out of &9&l{max} &7players online.'
+       - '&6Click to join.'
+
+    offline:
+      item: BARRIER
+      name: '&b&k$&r &5&lWhitelist &b&k$'
+      lore:
+       - '&c&l&nSERVER OFFLINE'
+
+  # Server item
+  4:
+    
+    # Enable to show server status and placeholders
+    ping-server: true
+    ip: localhost
+    port: 25572
+    
+    # Action to run when the item is clicked
+    action: 'srv:furryrp'
+
+    online:
+      item: ENCHANTED_GOLDEN_APPLE
+      name: '&b&k$&r &a&lR/FurryRP &b&k$'
+      lore:
+      - '&7There are &a&l{online} &7out of &9&l{max} &7players online.'
+      - '&6Click to join.'
+
+    offline:
+      item: BARRIER
+      name: '&b&k$&r &5&lR/FurryRP &b&k$'
+      lore:
+      - '&c&l&nSERVER OFFLINE'
